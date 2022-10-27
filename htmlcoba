@@ -1,0 +1,12 @@
+Post::create([
+    'title'=> 'Judul kelima',
+    'category_id'=>3,
+    'slug'=> 'judul-lima',
+    'excerpt'=> 'Lorem ipsum dolor sit amet kelima',
+    'body'=> '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum accusantium inventore esse, sapiente voluptas nemo eligendi saepe placeat, ullam, voluptatibus similique vero. Maiores excepturi quasi quod, iste quisquam eligendi expedita!</p><p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. In repellendus, vero, assumenda illo nam commodi laboriosam fuga, ex nesciunt magnam expedita minus architecto doloremque at et praesentium. Rerum, ea perferendis!</p>'
+])
+
+Category::create ([
+    'name'=>'Personal',
+    'slug'=>'personal'
+])
